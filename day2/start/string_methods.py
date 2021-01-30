@@ -1,0 +1,21 @@
+print("hello world".split(" "))
+print(",".join(['a', 'b', "c"]))
+print(" one ".strip())
+print("UPPER lower".upper())
+print("UPPER lower".lower())
+print("UPPER lower".swapcase())
+print("one two three".replace(" ", ","))
+print("one two three".find("two"))
+print("one two three".find("four"))
+
+print("as12A".isalnum())
+print("aAa".isalpha())
+print("123".isdecimal())
+print("123".isdigit())
+print("123".isnumeric())
+print(u"½¼".isnumeric())
+print(" ".isspace())
+print("hello".islower())
+print("HELLO".isupper())
+
+
