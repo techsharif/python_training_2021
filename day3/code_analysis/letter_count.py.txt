@@ -1,0 +1,19 @@
+f = open("test.txt", "w")
+data = '''“Hello321#” '''
+count = 0 
+f.write(data)
+f.close()
+
+ 
+file = open("test.txt", "r")
+rd = file.read()
+     
+for i in rd:
+       if (i == "." || i == "?" || i == "!")
+            count += 1
+
+for i in rd:
+       if (isalpha(i) ==0)
+            count += 1
+    
+print (rd, "has " ,count, " letters")
